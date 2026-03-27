@@ -20,6 +20,7 @@ const models = [
   'Sama Khoury',
   'Yara Matar',
   'Irene Aung',
+  'Ananya Ramesh',
 ]
 
 function Models() {
