@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 
-const mapImage =
-  'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1400&q=80'
+const mapImage = '/map/IMG_0140.png'
 
 function EventMap() {
   return (
