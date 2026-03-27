@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-const mapImage = '/map/IMG_0140.png'
+const mapImage = '/map/IMG_0140 2.png'
 
 function EventMap() {
   return (
