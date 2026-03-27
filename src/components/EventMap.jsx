@@ -5,15 +5,26 @@ const mapImage = '/map/IMG_0140.png'
 function EventMap() {
   return (
     <section className="flex h-full flex-col py-2 text-center" id="map">
-      <motion.h2
-        initial={{ opacity: 0, y: 24 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.55 }}
-        transition={{ duration: 0.55 }}
-        className="mb-6 text-4xl font-bold text-white sm:text-5xl"
-      >
-        Event Map
-      </motion.h2>
+      <div className="mb-6 flex items-center justify-center gap-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.55 }}
+          transition={{ duration: 0.55 }}
+          className="text-center text-4xl font-bold text-white sm:text-5xl"
+        >
+          Event Map
+        </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.55 }}
+          transition={{ duration: 0.55 }}
+          className="text-sm text-slate-400 sm:text-base"
+        >
+          scroll down
+        </motion.p>
+      </div>
 
       <motion.div
         initial={{ opacity: 0, scale: 0.98 }}
